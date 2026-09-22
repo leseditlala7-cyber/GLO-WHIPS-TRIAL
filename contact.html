@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Glo Whips Bakery</title>
+  <meta name="description" content="Contact Glo Whips Bakery — WhatsApp, Instagram, Facebook. Send a message or place an order.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="contact">
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Glo Whips Bakery Home">
+        <span class="logo-text">GLO WHIPS</span>
+        <span class="logo-sub">Bakery</span>
+      </a>
+      <nav class="nav-menu" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="new-arrivals.html">New In</a>
+        <a href="sale.html">Sale</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="order.html" class="nav-order-btn">
+          <span class="nav-order-text">ORDER</span>
+          <span class="cart-count" aria-live="polite"></span>
+        </a>
+        <button type="button" class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <div class="nav-overlay" aria-hidden="true"></div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="page-header">
+        <h1>Contact Glo Whips</h1>
+        <p>We’d love to hear from you. Reach out on WhatsApp, social media, or use the form below.</p>
+      </div>
+
+      <div class="contact-grid section">
+        <div class="contact-info-card">
+          <h3>Get in Touch</h3>
+
+          <div class="contact-detail">
+            <strong>WhatsApp</strong>
+            <!-- EDIT: Replace YOUR_NUMBER_HERE in script.js — this display is for reference -->
+            <span>Set your number in script.js (WHATSAPP_NUMBER)</span>
+          </div>
+
+          <div class="contact-detail">
+            <strong>Phone</strong>
+            <span>YOUR_PHONE_HERE</span>
+          </div>
+
+          <div class="contact-detail">
+            <strong>Email</strong>
+            <span>YOUR_EMAIL_HERE</span>
+          </div>
+
+          <div class="contact-detail">
+            <strong>Instagram</strong>
+            <a href="https://www.instagram.com/glo_whips_bakery_/" target="_blank" rel="noopener noreferrer">@glo_whips_bakery_</a>
+          </div>
+
+          <div class="contact-detail">
+            <strong>Also on Instagram</strong>
+            <a href="https://www.instagram.com/glowhipsjarco/" target="_blank" rel="noopener noreferrer">@glowhipsjarco</a>
+          </div>
+
+          <div class="contact-detail">
+            <strong>Facebook</strong>
+            <a href="https://www.facebook.com/profile.php?id=61568318670413" target="_blank" rel="noopener noreferrer">Glo Whips Bakery</a>
+          </div>
+
+          <div class="contact-detail">
+            <strong>Business Hours</strong>
+            <span>YOUR BUSINESS HOURS HERE</span>
+          </div>
+
+          <div class="contact-detail">
+            <strong>Location / Service Area</strong>
+            <span>YOUR LOCATION / SERVICE AREA HERE</span>
+          </div>
+
+          <p style="margin-top: 1.5rem; font-size: 0.9rem; color: var(--color-text-muted);">
+            Prefer to order? <a href="order.html">Build your order</a> and send it on WhatsApp.
+          </p>
+        </div>
+
+        <div class="contact-form-card">
+          <h3>Send a Message</h3>
+          <p style="color: var(--color-text-muted); margin-bottom: 1.25rem; font-size: 0.95rem;">
+            This form opens WhatsApp with your message. No account or app installation required beyond WhatsApp.
+          </p>
+
+          <form id="contact-form">
+            <div class="form-group">
+              <label for="contact-name">Name *</label>
+              <input type="text" id="contact-name" name="name" required autocomplete="name" placeholder="Your name">
+            </div>
+            <div class="form-group">
+              <label for="contact-email">Email</label>
+              <input type="email" id="contact-email" name="email" autocomplete="email" placeholder="your@email.com">
+            </div>
+            <div class="form-group">
+              <label for="contact-phone">Phone</label>
+              <input type="tel" id="contact-phone" name="phone" autocomplete="tel" placeholder="Your phone number">
+            </div>
+            <div class="form-group">
+              <label for="contact-subject">Subject</label>
+              <input type="text" id="contact-subject" name="subject" placeholder="e.g. Custom cake enquiry">
+            </div>
+            <div class="form-group">
+              <label for="contact-message">Message *</label>
+              <textarea id="contact-message" name="message" required placeholder="How can we help?"></textarea>
+            </div>
+            <button type="submit" class="btn btn-whatsapp" style="width: 100%;">
+              Send via WhatsApp
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <span class="logo-text">GLO WHIPS</span>
+            <span class="logo-sub">Bakery</span>
+          </a>
+          <p>Sweet moments, beautifully baked. Premium cakes, desserts and whip creations.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <a href="shop.html">Shop</a>
+          <a href="new-arrivals.html">New Arrivals</a>
+          <a href="sale.html">Sale</a>
+          <a href="about.html">About</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="contact.html">Contact</a>
+          <a href="faq.html">FAQ</a>
+        </div>
+        <div class="footer-links">
+          <h4>Connect</h4>
+          <a href="https://www.instagram.com/glo_whips_bakery_/" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="https://www.facebook.com/profile.php?id=61568318670413" target="_blank" rel="noopener noreferrer">Facebook</a>
+          <a href="order.html">Order Now</a>
+          <a href="contact.html">Get in Touch</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Glo Whips Bakery. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="floating-whatsapp" aria-label="Chat on WhatsApp"><span aria-hidden="true">💬</span></a>
+  <script src="script.js"></script>
+</body>
+</html>

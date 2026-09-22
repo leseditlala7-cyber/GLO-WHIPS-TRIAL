@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glo Whips Bakery | Sweet Moments, Beautifully Baked</title>
+  <meta name="description" content="Glo Whips Bakery — premium cakes, cupcakes, desserts and whip products. Order online and collect or arrange delivery. Based in South Africa.">
+  <meta property="og:title" content="Glo Whips Bakery">
+  <meta property="og:description" content="Sweet moments, beautifully baked. Discover cakes, desserts and more.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="home">
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Glo Whips Bakery Home">
+        <!-- Replace with <img src="images/branding/logo.png" alt="Glo Whips Bakery" class="logo-img"> when you have a logo -->
+        <span class="logo-text">GLO WHIPS</span>
+        <span class="logo-sub">Bakery</span>
+      </a>
+
+      <nav class="nav-menu" aria-label="Main navigation">
+        <a href="index.html" class="active">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="new-arrivals.html">New In</a>
+        <a href="sale.html">Sale</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="order.html" class="nav-order-btn">
+          <span class="nav-order-text">ORDER</span>
+          <span class="cart-count" aria-live="polite"></span>
+        </a>
+        <button type="button" class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+    <div class="nav-overlay" aria-hidden="true"></div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <span class="hero-label">Glo Whips Bakery</span>
+          <h1>Sweet moments, beautifully baked.</h1>
+          <p class="hero-tagline">Handcrafted cakes, desserts &amp; whip creations</p>
+          <p class="hero-text">From everyday treats to celebration centrepieces — discover our range of cakes, cupcakes, desserts and signature whip products.</p>
+          <div class="hero-buttons">
+            <a href="shop.html" class="btn btn-primary btn-lg">Shop Our Products</a>
+            <a href="order.html" class="btn btn-outline btn-lg">Order Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Intro -->
+    <section class="section intro-section">
+      <div class="container">
+        <h2 class="section-title">Welcome to Glo Whips Bakery</h2>
+        <p>We create beautiful, delicious bakery products made with care. Whether you’re celebrating a special moment or simply craving something sweet, Glo Whips is here to make it memorable.</p>
+        <a href="about.html" class="btn btn-outline">Meet Glo Whips</a>
+      </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Featured Products</h2>
+        <p class="section-subtitle">A selection of our most loved creations</p>
+        <div id="featured-products" class="product-grid">
+          <!-- Filled by JavaScript -->
+        </div>
+        <div class="text-center mt-3">
+          <a href="shop.html" class="btn btn-primary">View All Products</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- New Arrivals -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Fresh From The Oven</h2>
+        <p class="section-subtitle">Our latest arrivals — new flavours and seasonal specials</p>
+        <div id="home-new-arrivals" class="product-grid">
+          <!-- Filled by JavaScript -->
+        </div>
+        <div class="text-center mt-3">
+          <a href="new-arrivals.html" class="btn btn-outline">View All New Arrivals</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sale -->
+    <section class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Sweet Deals</h2>
+        <p class="section-subtitle">Limited-time specials on selected products</p>
+        <div id="home-sale-products" class="product-grid">
+          <!-- Filled by JavaScript -->
+        </div>
+        <div class="text-center mt-3">
+          <a href="sale.html" class="btn btn-primary">Shop The Sale</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Glo Whips -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Why Glo Whips</h2>
+        <p class="section-subtitle">What makes our bakery special</p>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon" aria-hidden="true">✦</div>
+            <h3>Quality</h3>
+            <p>Beautifully prepared products made with care and attention to detail.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon" aria-hidden="true">◎</div>
+            <h3>Freshness</h3>
+            <p>Fresh products prepared for our customers — never compromised.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon" aria-hidden="true">✧</div>
+            <h3>Creativity</h3>
+            <p>Unique and exciting bakery creations that stand out.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon" aria-hidden="true">♥</div>
+            <h3>Customer Love</h3>
+            <p>Made to make your moments sweeter, every single time.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Preview -->
+    <section class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Gallery</h2>
+        <p class="section-subtitle">A taste of what we create</p>
+        <div class="gallery-preview-grid">
+          <!-- Placeholder gallery previews — replace images in images/gallery/ -->
+          <div class="gallery-preview-item">
+            <img src="images/gallery/gallery-1.jpg" alt="Assorted bakery products" loading="lazy"
+                 onerror="this.onerror=null;this.src='images/branding/placeholder.jpg';this.classList.add('img-fallback');">
+          </div>
+          <div class="gallery-preview-item">
+            <img src="images/gallery/gallery-2.jpg" alt="Chocolate cake" loading="lazy"
+                 onerror="this.onerror=null;this.src='images/branding/placeholder.jpg';this.classList.add('img-fallback');">
+          </div>
+          <div class="gallery-preview-item">
+            <img src="images/gallery/gallery-3.jpg" alt="Cupcakes" loading="lazy"
+                 onerror="this.onerror=null;this.src='images/branding/placeholder.jpg';this.classList.add('img-fallback');">
+          </div>
+          <div class="gallery-preview-item">
+            <img src="images/gallery/gallery-4.jpg" alt="Dessert styling" loading="lazy"
+                 onerror="this.onerror=null;this.src='images/branding/placeholder.jpg';this.classList.add('img-fallback');">
+          </div>
+          <div class="gallery-preview-item">
+            <img src="images/gallery/gallery-5.jpg" alt="Whipped dessert" loading="lazy"
+                 onerror="this.onerror=null;this.src='images/branding/placeholder.jpg';this.classList.add('img-fallback');">
+          </div>
+          <div class="gallery-preview-item">
+            <img src="images/gallery/gallery-6.jpg" alt="Bakery packaging" loading="lazy"
+                 onerror="this.onerror=null;this.src='images/branding/placeholder.jpg';this.classList.add('img-fallback');">
+          </div>
+        </div>
+        <div class="text-center mt-3">
+          <a href="gallery.html" class="btn btn-outline">View Full Gallery</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social -->
+    <section class="social-section">
+      <div class="container">
+        <h2>Follow Glo Whips</h2>
+        <p>Stay updated with new products, behind-the-scenes moments and specials.</p>
+        <div class="social-buttons">
+          <a href="https://www.instagram.com/glo_whips_bakery_/" target="_blank" rel="noopener noreferrer" class="btn">Instagram</a>
+          <a href="https://www.instagram.com/glowhipsjarco/" target="_blank" rel="noopener noreferrer" class="btn">Glo Whips Jarco</a>
+          <a href="https://www.facebook.com/profile.php?id=61568318670413" target="_blank" rel="noopener noreferrer" class="btn">Facebook</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="cta-section">
+      <div class="container">
+        <h2>Ready to order something sweet?</h2>
+        <p>Browse our products, build your order and send it to us on WhatsApp — simple and personal.</p>
+        <div class="cta-buttons">
+          <a href="order.html" class="btn btn-primary btn-lg">Order Now</a>
+          <a href="contact.html" class="btn btn-whatsapp btn-lg">WhatsApp Us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <span class="logo-text">GLO WHIPS</span>
+            <span class="logo-sub">Bakery</span>
+          </a>
+          <p>Sweet moments, beautifully baked. Premium cakes, desserts and whip creations.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <a href="shop.html">Shop</a>
+          <a href="new-arrivals.html">New Arrivals</a>
+          <a href="sale.html">Sale</a>
+          <a href="about.html">About</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="contact.html">Contact</a>
+          <a href="faq.html">FAQ</a>
+        </div>
+        <div class="footer-links">
+          <h4>Connect</h4>
+          <a href="https://www.instagram.com/glo_whips_bakery_/" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="https://www.facebook.com/profile.php?id=61568318670413" target="_blank" rel="noopener noreferrer">Facebook</a>
+          <a href="order.html">Order Now</a>
+          <a href="contact.html">Get in Touch</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Glo Whips Bakery. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp -->
+  <a href="#" class="floating-whatsapp" aria-label="Chat on WhatsApp">
+    <span aria-hidden="true">💬</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
